@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  images:{domains :  ["wallpaperaccess.com"]},
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "wallpaperaccess.com" }],
+  },
 }
 
 module.exports = nextConfig
