@@ -6,20 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/icons-material": "^5.10.3",
-    "@mui/material": "^5.10.5",
-    "material-icons": "^1.11.11",
-    "next": "12.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.6.0",
+    "@mui/material": "^9.6.0",
+    "material-icons": "^1.13.14",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0"
+    "eslint": "10.15.0",
+    "eslint-config-next": "16.4.6"
   }
 }
